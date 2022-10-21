@@ -1,0 +1,70 @@
+#main a {
+    text-decoration: none;
+    color: black;
+}
+#main a:visited { 
+    color: black; 
+}
+section {
+    width: 100%;
+    height: 80%; 
+}
+section h3 { 
+    width: 40%;
+    margin: 0 auto; 
+    padding: 4rem 0 1rem 0; 
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    text-align:start;
+}
+section form {
+    margin: 0 auto; 
+    width: 40%; 
+    height: 100%;
+}
+section fieldset { 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none; 
+}
+section span { 
+    display: flex;
+    flex-direction: row;
+}
+#input-url {
+    margin: 0 1% 1rem 0; 
+    padding: 0.5rem; 
+    display: flex;
+    width: 90%; 
+    height: 2.5rem;
+    font-size: 1rem;
+}
+#input-file {
+    margin-bottom: 1rem;
+    padding: 0.5rem; 
+    display: flex;
+    width: 30%; 
+    font-size: 1rem;
+    justify-self: center;
+    align-self: center;
+}
+#input-name, #input-cat, #input-price, #add-item-btn {
+    margin-bottom: 1rem;
+    padding: 0.5rem; 
+    width: 100%;
+    height: 2.5rem; 
+    font-size: 1rem;
+}
+#input-description {
+    margin-bottom: 1rem;
+    padding: 0.5rem; 
+    width: 100%;
+    min-height: 5rem; 
+    font-size: 1rem;
+}
+#add-item-btn {
+    width: 103%; 
+    background-color: #1b1a19;
+    color: white; 
+}

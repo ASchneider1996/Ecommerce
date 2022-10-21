@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Variables */
+:root {
+    --background-color: #9c74d4;
+    --boxes-color: #acd474; 
+}
+/* MENU DE NAVEGACION */
+header {
+    width: 100%;
+    height: 12em; 
+    margin: 0; 
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: row;
+    position: fixed; 
+    z-index: 10; 
+} 
+#main {
+    width: 30%;  
+    height: 100%;
+    display: inline-block; 
+} 
+h1 {
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Lobster', cursive, sans-serif; 
+    color: rgb(25, 25, 25); 
+}
+#main-2 {
+    width: 30%;  
+    height: 25%; 
+    margin-left: 20em; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed; 
+    z-index: 9;
+}
+#finder {
+    width: 25em; 
+    height: 2em;  
+    display: block; 
+    outline: 0; 
+}
+section {
+    margin: 0;
+    background-color: #fff; 
+}
+#finder-box{
+    position: fixed; 
+    top: 7em; 
+    left: 35em; 
+    transform: translateX(-50%);
+    width: 21em; 
+    background: #fff; 
+    z-index: 8; 
+    overflow: hidden;
+    display: none; 
+} 
+#finder-box li a {
+   display: block; 
+   width: 100%; 
+   padding: 0.2em; 
+   font-size: 0.8em;
+   text-decoration: none;
+}
+#finder-box li a:hover {
+    background-color: rgb(193, 174, 174); 
+}
+#finder-box li a:visited {
+    text-decoration: none;
+}
+/* CUENTA DE USUARIO */
+#login {
+    margin-left: 60em;
+    margin-right: 0;  
+    padding: 0.5em;
+    width: 10rem;
+    height: 2.5rem;
+    align-self: center;
+    font-size: 0.8rem;
+    border: 0.1rem solid black; 
+    background-color: #fff;
+}
+#login a {
+    text-decoration: none;
+    color: black; 
+}
+/* OFERTAS DE LA SEMANA */
+section {
+    padding-top: 12em; 
+}
+#carrusel {
+    width: 100%;
+    height: 50em; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#carrusel-items {
+    width: 100%;
+    height: 100%; 
+    padding: 2.5em 0;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#carrusel-item {
+    min-width: 100%;
+    max-width: 100%;
+    cursor: pointer;
+}
+#carrusel-item img {
+    width: 100%;
+    height: 60%; 
+    object-fit: cover;
+}
+#items-sale-btn {
+    position: static;
+    width: 100%;
+    height: 4rem;
+    font-size: 1.4rem; 
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+/* ITEMS */
+.div-products {
+    margin: 0 10%; 
+    padding: 0; 
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    display: inline-flex;
+    margin: 0 4%; 
+    width: 100%;
+    height: 20rem; 
+}
+.card img {
+    width: 12rem;
+    height: 15rem;
+}
+.card h3 {
+    font-size: 0.8rem; 
+}
+.card p {
+    font-size: 0.6rem; 
+}
+/* INFO */
+div#contact-us {
+    margin: 0; 
+    padding: 0 15%; 
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--background-color);
+}
+#name-info-div {
+    width: 50%; 
+    height: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+#span-name {
+    width: 50%; 
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+}
+#span-name h4 {
+    font-size: 2rem;
+    font-family: 'Lobster', cursive, sans-serif; 
+    color: rgb(25, 25, 25); 
+}
+#span-info {
+    width: 50%; 
+}
+#span-info, #span-form {
+    display: flex;
+    height: 100%; 
+    font-size: 1rem;
+    color: rgb(25, 25, 25); 
+    justify-content: center;
+    align-items: center;
+}
+#span-info ul li {
+    list-style-type: none;
+    padding: 0.5rem 0; 
+}
+#span-form {
+    width: 50%;
+    justify-content: flex-start;
+} 
+#span-form fieldset { 
+    width: 30rem; 
+    height: 10rem; 
+    border: none; 
+}
+#span-form form p {  
+    padding: 0.5rem 0; 
+    font-size: 1rem;
+    font-weight: bolder;
+}
+#input-name {
+    margin-bottom: 1rem;
+    padding: 0.5rem; 
+    height: 2rem;
+    width: 100%; 
+    font-size: 0.9rem; 
+}
+#textarea{  
+    padding: 0.5rem; 
+    min-height: 4rem;
+    width: 100%; 
+    font-size: 0.9rem; 
+}
+#textarea::placeholder { 
+    font-family: Arial, Helvetica, sans-serif;
+} 
+#submit-msg-btn {
+    margin-top: 0.5rem;
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 0.9rem;
+    color: #fff; 
+    border: none; 
+    background-color: #1b1a19; 
+}
+/* FOOTER */
+footer.f-all {
+    padding-top: 2rem; 
+    width: 100%;
+    height: 5%;
+    justify-content: center;
+    text-align: center;
+}
+footer.f-all p{
+    font-size: 0.9rem;
+    color: rgb(25, 25, 25); 
+} 

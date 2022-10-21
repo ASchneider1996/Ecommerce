@@ -1,0 +1,207 @@
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+/* Header */
+header {
+    padding: 1rem 2rem; 
+    height: 15%;
+}
+#main {
+    width: 40%; 
+    float: left;
+}
+h1 { 
+    width: 100%; 
+    font-size: 2rem;
+}
+#login { 
+    margin-left: 1rem; 
+    padding: 0;
+    width: 6rem;
+    height: 2rem; 
+}
+#main-2 {
+   display: none;
+}
+/* Section */
+section { 
+    padding-top: 5rem;
+}
+#carrusel { 
+    margin: 0; 
+    height: 50%; 
+}
+#carrusel-items { 
+    height: 30%;
+}
+#carrusel-item { 
+    height: 100%; 
+}
+#carrusel-item img { 
+    width: 100%;
+    height: 100%; 
+}
+#items-sale-btn {
+    height: 4rem;
+    font-size: 1rem;
+}
+#div-two ul {
+    padding: 0; 
+    flex-direction: column;
+}
+#div-two ul li { 
+    padding: 0; 
+    margin-bottom: 2rem; 
+    width: 100%; 
+}
+#div-two .products { 
+    width: 70%;
+    height: auto; 
+}
+p.each-genre { 
+    font-size: 1.5rem;
+}
+/* Info */
+div#contact-us { 
+    padding: 1.5rem 0 0.5rem 0;
+    width: 100%; 
+    height: 100%; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#name-info-div {
+    flex-direction: column;
+}
+#span-name { 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 2rem; 
+    justify-content: center;
+}
+#span-name h4 {  
+    width: 100%; 
+    text-align: center;
+}
+#span-info {
+    width: 100%; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#span-info ul li {
+   width: 100%; 
+   padding: 0.5rem 0; 
+   text-align: center;
+}
+#span-form {
+    margin: 0; 
+    padding: 0; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+} 
+#span-form form {
+    margin: 0 auto; 
+    width: 85%; 
+}
+#span-form form fieldset { 
+    margin: 0; 
+    width: 100%; 
+}
+#input-name, #textarea { 
+    margin: 0.2rem 0; 
+    width: 100%; 
+}
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+/* Header */
+#main {
+    width: 30%; 
+}
+h1 {
+    width: 100%; 
+    font-size: 2rem; 
+}
+#main-2 {
+    width: 60%; 
+    margin-left: 10rem; 
+}
+#login { 
+    margin-left: 25rem;
+    width: 15%;  
+    float: right; 
+}
+/* Info */
+div#contact-us {
+    padding: 0; 
+    width: 100%; 
+    height: 50%; 
+}
+#name-info-div {
+    margin: 0; 
+    padding: 0; 
+    width: 30%; 
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#span-name, #span-info {
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    justify-content: center;
+    align-items: center;
+}
+#span-name {
+    height: 2rem; 
+}
+#span-name h4 { 
+    margin-top: 1rem; 
+    width: 100%; 
+    text-align: center;
+}
+#span-info {
+    height: 15rem; 
+}
+#span-form {
+    width: 70%; 
+    justify-content: center;
+    align-items: center;
+}
+#span-form form {
+    width: 90%; 
+}
+#span-form fieldset { 
+    width: 100%; 
+}
+}
+
+/* Desktop */ 
+@media (min-width: 1025px) { 
+#login {
+    margin-left: 50%; 
+}
+#name-info-div {
+    flex-direction: row;
+}
+#span-name {
+    padding: 0;  
+    display: inline-flex;
+}
+#span-form {
+    margin: 0;  
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+} 
+} 
+
+/* Breaking points
+320px — 767px: Mobile devices.
+768px — 1024px: Tablet.
+-1025px: Desktops, large screens.*/

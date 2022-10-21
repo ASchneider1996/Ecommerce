@@ -1,0 +1,52 @@
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+#main {
+    width: 45%; 
+}
+section {
+    padding-bottom: 2rem; 
+    height: 100%;
+}
+section h3 {
+    margin: 0 auto; 
+    width: 85%; 
+    font-size: 1.5rem;
+}
+section form { 
+    margin: 0 auto; 
+    width: 85%; 
+}
+section span { 
+    display: flex;
+    flex-direction: column;
+}
+#input-url { 
+    width: 100%;
+}
+#input-file { 
+    width: 100%;
+    font-size: 0.8rem; 
+}
+#input-name {
+    margin-bottom: 1rem; 
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+#main {
+    width: 30%; 
+}
+}
+
+@media screen and (min-width: 1025px) {  
+section {
+    height: 100%; 
+}
+section h3 { 
+    margin: 0 auto; 
+    width: 50%; 
+}
+section form { 
+    margin: 0 auto; 
+    width: 50%; 
+}
+}
